@@ -41,7 +41,7 @@ int main()
         }
         else{
             printf("Do you want to order more? (Yes[1]/No[0]) - ");
-            int resp;//if the user do not want anything more it will proceed to print the bill
+            int resp;//if the user do not want anything more it will proceed to print the bill.
             scanf("%d", &resp);
             if(resp == 0){
                 printInvoice(qty0,qty1,qty2,qty3,qty4,qty5);
